@@ -1,5 +1,7 @@
 ﻿# Design Patterns: Singleton
 
+![Singleton sample](./singleton.png)
+
 This is a creation pattern, that guarantees only one object instance while the life cycle project.
 
 But why and when can I use it? For example, when you use MongoDB in your application. The MongoDB do not use the connection pool, like relational databases, so is best for it to keep the connection always open and only one for all the project. In this case, we can use the Singleton pattern to involve the class that responsible to open and return the connection for us.
